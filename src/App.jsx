@@ -5,6 +5,7 @@ import Layout from './components/Layout/Layout'
 import Kampaniya from './pages/Kampaniya/Kampaniya'
 import Stores from './pages/Stores/Stores'
 import Corporate from './pages/Corporate/Corporate'
+import Login from './pages/Login/Login'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
           <Route path='/kampaniya' element={<Kampaniya />} />
           <Route path='/mağazalar' element={<Stores />} />
           <Route path='/korporativ-satislar' element={<Corporate />} />
+          <Route path='/login' element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>
